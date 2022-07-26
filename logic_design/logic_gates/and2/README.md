@@ -12,4 +12,4 @@ The AND gate is a basic digital logic gate that implements logical conjunction (
 |1| 1| 1|
 
 ## Test Bench
-![and2 tb](./logic_design/logic_gates/and2/and2_tb.png "AND2 Test Bench")
+![and2 tb](./and2_tb.png "AND2 Test Bench")
