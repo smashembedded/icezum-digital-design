@@ -2,3 +2,7 @@
 *.out
 *.dblite
 *.ini
+*.asc
+*.bin
+*.json
+*.history
