@@ -1,19 +1,24 @@
 //-------------------------------------------------------------------
 //-- or2.v
-//-- Testbench
+//-- Module
 //-------------------------------------------------------------------
 //-- Daniel Rodrigo
 //-- GPL license
 //-------------------------------------------------------------------
+//-- OR Logic Gate 2:1
+//-------------------------------------------------------------------
 
-module or2 (SW1, SW2, LED0);
+module or2 (x0, x1, z0);
 
-input SW1, SW2;
-output LED0;
+// inputs and output
+input x0, x1;
+output z0;
 
-wire SW1, SW2;
-wire LED0;
+// define signals
+wire x0, x1;
+wire z0;
 
-assign LED0 = SW1 | SW2;
+// continuous assign
+assign z0 = x0 | x1;
 
 endmodule

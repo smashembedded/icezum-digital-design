@@ -1,23 +1,23 @@
 [*]
 [*] GTKWave Analyzer v3.3.77 (w)1999-2016 BSI
-[*] Tue Jul 26 18:54:36 2022
+[*] Fri Aug 12 16:31:17 2022
 [*]
-[dumpfile] "C:\Users\DanielVicente\Workspace\icezum-digital-design\logic_design\logic_gates\and2\and2_tb.vcd"
-[dumpfile_mtime] "Tue Jul 26 18:53:13 2022"
-[dumpfile_size] 430
-[savefile] "C:\Users\DanielVicente\Workspace\icezum-digital-design\logic_design\logic_gates\and2\and2_tb.gtkw"
+[dumpfile] "C:\Users\DanielVicente\Workspace\icezum-digital-design\basic_logic_design\logic_gates\and2\and2_tb.vcd"
+[dumpfile_mtime] "Fri Aug 12 16:30:58 2022"
+[dumpfile_size] 422
+[savefile] "C:\Users\DanielVicente\Workspace\icezum-digital-design\basic_logic_design\logic_gates\and2\and2_tb.gtkw"
 [timestart] 0
 [size] 1000 600
-[pos] -1 -1
-*-14.537124 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[pos] 169 128
+*-14.537124 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
 [treeopen] and2_tb.
 [sst_width] 197
 [signals_width] 78
 [sst_expanded] 1
 [sst_vpaned_height] 153
 @28
-and2_tb.UUT.SW1
-and2_tb.UUT.SW2
-and2_tb.UUT.LED0
+and2_tb.UUT.x0
+and2_tb.UUT.x1
+and2_tb.UUT.z0
 [pattern_trace] 1
 [pattern_trace] 0

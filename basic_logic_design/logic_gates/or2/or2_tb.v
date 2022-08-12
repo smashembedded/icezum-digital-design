@@ -12,13 +12,13 @@
 
 module or2_tb;
 
-    reg SW1, SW2;
-    wire LED0;
+    reg x0, x1;
+    wire z0;
 
     //-- Simulation time: 20ns (20 * 1ns)
     localparam DURATION = 20;  
 
-    or2 UUT (.SW1(SW1), .SW2(SW2), .LED0(LED0));
+    or2 UUT (.x0(x0), .x1(x1), .z0(z0));
     
     initial begin
 	
@@ -26,20 +26,20 @@ module or2_tb;
 		$dumpfile(`DUMPSTR(`VCD_OUTPUT));
 		$dumpvars(0, or2_tb);
   
-        SW1 = 0;
-        SW2 = 0;
+        x0 = 0;
+        x1 = 0;
         #DURATION;
 
-        SW1 = 0;
-        SW2 = 1;
+        x0 = 0;
+        x1 = 1;
         #DURATION;
 
-        SW1 = 1;
-        SW2 = 0;
+        x0 = 1;
+        x1 = 0;
         #DURATION;
 
-        SW1 = 1;
-        SW2 = 1;
+        x0 = 1;
+        x1 = 1;
         #DURATION;
 		
 		$display("End of simulation");

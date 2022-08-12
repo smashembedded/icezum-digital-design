@@ -1,4 +1,4 @@
-set_io SW1 10
-set_io SW2 11
-set_io LED0 95
+set_io x0 10
+set_io x1 11
+set_io z0 95
 
