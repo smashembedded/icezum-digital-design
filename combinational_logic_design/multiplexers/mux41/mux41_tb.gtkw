@@ -1,0 +1,26 @@
+[*]
+[*] GTKWave Analyzer v3.3.77 (w)1999-2016 BSI
+[*] Tue Aug 16 18:37:34 2022
+[*]
+[dumpfile] "C:\Users\DanielVicente\Workspace\icezum-digital-design\combinational_logic_design\multiplexers\mux41\mux41_tb.vcd"
+[dumpfile_mtime] "Tue Aug 16 18:14:27 2022"
+[dumpfile_size] 1665
+[savefile] "C:\Users\DanielVicente\Workspace\icezum-digital-design\combinational_logic_design\multiplexers\mux41\mux41_tb.gtkw"
+[timestart] 0
+[size] 1000 600
+[pos] -1 -1
+*-15.859041 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 197
+[signals_width] 78
+[sst_expanded] 1
+[sst_vpaned_height] 153
+@28
+mux41_tb.s0
+mux41_tb.s1
+mux41_tb.d0
+mux41_tb.d1
+mux41_tb.d2
+mux41_tb.d3
+mux41_tb.z0
+[pattern_trace] 1
+[pattern_trace] 0
