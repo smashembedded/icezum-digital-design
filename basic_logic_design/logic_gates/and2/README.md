@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # AND 2:1 Gate
 
 ![and2 synthesis](./synthesis.png "AND 2:1 Synthesis")

@@ -1,15 +1,15 @@
 [*]
 [*] GTKWave Analyzer v3.3.77 (w)1999-2016 BSI
-[*] Fri Aug 12 16:41:54 2022
+[*] Sun Jan 01 20:17:32 2023
 [*]
 [dumpfile] "C:\Users\DanielVicente\Workspace\icezum-digital-design\basic_logic_design\logic_gates\and3\and3_tb.vcd"
-[dumpfile_mtime] "Fri Jul 29 17:54:11 2022"
-[dumpfile_size] 535
+[dumpfile_mtime] "Sun Jan 01 20:16:52 2023"
+[dumpfile_size] 538
 [savefile] "C:\Users\DanielVicente\Workspace\icezum-digital-design\basic_logic_design\logic_gates\and3\and3_tb.gtkw"
 [timestart] 0
 [size] 1000 600
 [pos] -1 -1
-*-15.537115 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+*-17.572733 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
 [treeopen] and3_tb.
 [sst_width] 197
 [signals_width] 78

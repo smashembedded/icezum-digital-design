@@ -8,7 +8,7 @@
 //-- AND Logic Gate 2:1
 //-------------------------------------------------------------------
 
-module and2 (x0, x1, z0);
+module and2(x0, x1, z0);
 
 // inputs and output
 input x0, x1;

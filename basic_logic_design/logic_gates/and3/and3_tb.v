@@ -15,8 +15,8 @@ module and3_tb;
     reg x0, x1, x2;
     wire z0;
 
-    //-- Simulation time: 20ns (20 * 1ns)
-    localparam DURATION = 20;  
+    localparam PERIOD = ((1000/12)/2); // ns
+    localparam DURATION = 2*PERIOD;  
 
     and3 UUT (.x0(x0), .x1(x1), .x2(x2), .z0(z0));
     
