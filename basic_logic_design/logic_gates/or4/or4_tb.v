@@ -13,12 +13,12 @@
 module or4_tb;
 
     reg x0, x1, x2, x3;
-    wire z0;
+    wire z2;
 
-    //-- Simulation time: 20ns (20 * 1ns)
-    localparam DURATION = 20;  
+    localparam PERIOD = ((1000/12)/2); // ns
+    localparam DURATION = 2*PERIOD;  
 
-    or4 UUT (.x0(x0), .x1(x1), .x2(x2), .x3(x3), .z0(z0));
+    or4 UUT (.x0(x0), .x1(x1), .x2(x2), .x3(x3), .z2(z2));
     
     initial begin
 	

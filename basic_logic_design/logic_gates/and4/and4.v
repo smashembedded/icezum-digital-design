@@ -26,7 +26,7 @@ and2 and2_0(.x0(x0), .x1(x1), .z0(z0));
 // AND2 Module 2
 and2 and2_1(.x0(x2), .x1(x3), .z0(z1));
 
-// continuous assign
+// AND2 Module 3
 and2 and2_2(.x0(z0), .x1(z1), .z0(z2));
 
 endmodule
