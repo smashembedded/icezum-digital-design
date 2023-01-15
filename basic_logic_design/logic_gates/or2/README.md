@@ -1,10 +1,12 @@
-# OR2 Gate
+# OR 2:1 Gate
+
+![or2 synthesis](./synthesis.png "OR 2:1 Synthesis")
 
 ## Definition
-The OR gate is a basic digital logic gate that implements logical disjunction (∨) from mathematical logic. 
+The OR 2:1 gate is a basic digital logic gate that implements logical disjunction (∨) from mathematical logic. 
 
 ### Truth Table
-|a | b |c = f(a,b)|
+|x0 | x1 |z0 = f(x0,x1)|
 |:---:|:---:|:---:|
 |0| 0| 0|
 |0| 1| 1|
