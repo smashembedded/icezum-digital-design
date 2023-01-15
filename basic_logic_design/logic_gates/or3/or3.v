@@ -8,7 +8,7 @@
 //-- OR Logic Gate 3:1
 //-------------------------------------------------------------------
 
-module or3 (x0, x1, x2, z0);
+module or3(x0, x1, x2, z0);
 
 // inputs and output
 input x0, x1, x2;

@@ -8,7 +8,7 @@
 //-- OR Logic Gate 2:1
 //-------------------------------------------------------------------
 
-module or2 (x0, x1, z0);
+module or2(x0, x1, z0);
 
 // inputs and output
 input x0, x1;

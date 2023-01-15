@@ -1,10 +1,12 @@
-# OR3 Gate
+# OR 3:1 Gate
+
+![or3 synthesis](./synthesis.png "OR 3:1 Synthesis")
 
 ## Definition
-The OR gate is a basic digital logic gate that implements logical disjunction (∨) from mathematical logic. 
+The OR 3:1 gate is a basic digital logic gate that implements logical disjunction (∨) from mathematical logic. 
 
 ### Truth Table
-|a | b | c |d = f(a,b,c)|
+|x0 | x1 | x2 |z0 = f(x0,x1,x2)|
 |:---:|:---:|:---:|:---:|
 |0| 0| 0| 0|
 |0| 0| 1| 1|
@@ -16,4 +18,4 @@ The OR gate is a basic digital logic gate that implements logical disjunction (�
 |1| 1| 1| 1|
 
 ## Test Bench
-![or3 tb](./or3_tb.png "OR3 Test Bench")
+![or3 tb](./or3_tb.png "OR 3:1 Test Bench")

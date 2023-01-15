@@ -14,4 +14,4 @@ The OR 2:1 gate is a basic digital logic gate that implements logical disjunctio
 |1| 1| 1|
 
 ## Test Bench
-![or2 tb](./or2_tb.png "OR2 Test Bench")
+![or2 tb](./or2_tb.png "OR 2:1 Test Bench")
