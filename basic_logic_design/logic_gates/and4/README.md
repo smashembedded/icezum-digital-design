@@ -7,7 +7,7 @@ The AND 4:1 gate is a basic digital logic gate that implements logical conjuncti
 
 ### Truth Table
 |x0 | x1 | x2 | x3 |z2 = f(x0,x1,x2,x3)|
-|:---:|:---:|:---:|:---:|
+|:---:|:---:|:---:|:---:|:---:|
 | 0| 0| 0| 0| 0|
 | 0| 0| 0| 1| 0|
 | 0| 0| 1| 0| 0|
