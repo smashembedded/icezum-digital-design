@@ -1,0 +1,27 @@
+[*]
+[*] GTKWave Analyzer v3.3.77 (w)1999-2016 BSI
+[*] Sun Jan 15 17:31:10 2023
+[*]
+[dumpfile] "C:\Users\DanielVicente\Workspace\icezum-digital-design\basic_logic_design\logic_gates\xor4\xor4_tb.vcd"
+[dumpfile_mtime] "Sun Jan 15 17:29:48 2023"
+[dumpfile_size] 1186
+[savefile] "C:\Users\DanielVicente\Workspace\icezum-digital-design\basic_logic_design\logic_gates\xor4\xor4_tb.gtkw"
+[timestart] 0
+[size] 1000 600
+[pos] -1 -1
+*-18.572731 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] xor4_tb.
+[sst_width] 197
+[signals_width] 78
+[sst_expanded] 1
+[sst_vpaned_height] 153
+@28
+xor4_tb.UUT.x0
+xor4_tb.UUT.x1
+xor4_tb.UUT.x2
+xor4_tb.UUT.x3
+xor4_tb.UUT.z0
+xor4_tb.UUT.z1
+xor4_tb.UUT.z2
+[pattern_trace] 1
+[pattern_trace] 0
