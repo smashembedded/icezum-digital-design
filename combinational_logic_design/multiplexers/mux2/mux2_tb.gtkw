@@ -1,9 +1,9 @@
 [*]
 [*] GTKWave Analyzer v3.3.77 (w)1999-2016 BSI
-[*] Thu Jan 19 17:41:54 2023
+[*] Fri Jan 20 09:48:37 2023
 [*]
 [dumpfile] "C:\Users\DanielVicente\Workspace\icezum-digital-design\combinational_logic_design\multiplexers\mux2\mux2_tb.vcd"
-[dumpfile_mtime] "Thu Jan 19 17:41:09 2023"
+[dumpfile_mtime] "Fri Jan 20 09:47:44 2023"
 [dumpfile_size] 971
 [savefile] "C:\Users\DanielVicente\Workspace\icezum-digital-design\combinational_logic_design\multiplexers\mux2\mux2_tb.gtkw"
 [timestart] 0
@@ -17,8 +17,8 @@
 [sst_vpaned_height] 153
 @28
 mux2_tb.UUT.s0
-mux2_tb.UUT.d0
 mux2_tb.UUT.d1
+mux2_tb.UUT.d0
 mux2_tb.UUT.z0
 [pattern_trace] 1
 [pattern_trace] 0

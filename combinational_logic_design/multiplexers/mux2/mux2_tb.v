@@ -22,7 +22,7 @@ module mux2_tb;
 
     //display variables
     initial
-    $monitor ("s0 = %b | d0 = %b, d1 = %b | z0 = %b", s0, d0, d1, z0);
+    $monitor ("s0 = %b | d1 = %b, d0 = %b | z0 = %b", s0, d1, d0, z0);
     
     initial begin
 	
@@ -31,31 +31,31 @@ module mux2_tb;
 		$dumpvars(0, mux2_tb);
 
         s0 = 1'b0;
-        d0 = 1'b0; d1 = 1'b0;
+        d1 = 1'b0; d0 = 1'b0;
         #DURATION
         s0 = 1'b0;
-        d0 = 1'b0; d1 = 1'b1;
+        d1 = 1'b0; d0 = 1'b1;
         #DURATION
 
         s0 = 1'b0;
-        d0 = 1'b1; d1 = 1'b0;
+        d1 = 1'b1; d0 = 1'b0;
         #DURATION
         s0 = 1'b0;
-        d0 = 1'b1; d1 = 1'b1;
+        d1 = 1'b1; d0 = 1'b1;
         #DURATION
 
         s0 = 1'b1;
-        d0 = 1'b0; d1 = 1'b0;
+        d1 = 1'b0; d0 = 1'b0;
         #DURATION
         s0 = 1'b1;
-        d0 = 1'b0; d1 = 1'b1;
+        d1 = 1'b0; d0 = 1'b1;
         #DURATION
 
         s0 = 1'b1;
-        d0 = 1'b1; d1 = 1'b0;
+        d1 = 1'b1; d0 = 1'b0;
         #DURATION
         s0 = 1'b1;
-        d0 = 1'b1; d1 = 1'b1;
+        d1 = 1'b1; d0 = 1'b1;
         #DURATION
 
 		$display("End of simulation");
