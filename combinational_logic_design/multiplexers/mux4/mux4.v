@@ -16,7 +16,6 @@ module mux4(s0, s1, d0, d1, d2, d3, z0);
 input s0, s1, d0, d1, d2, d3;
 output z0;
 
-
 // define internal nets
 wire net0, net1;
 
