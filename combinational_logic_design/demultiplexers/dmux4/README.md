@@ -23,7 +23,7 @@ This example designs a 1:4 demultiplexer using logic gates. This demultiplexer c
 |1| 1| 1| **1**| 0| 0| 0|
 
 ## Test Bench
-![dmux4 tb](./mux4_tb.png "DMUX 1:4 Test Bench")
+![dmux4 tb](./dmux4_tb.png "DMUX 1:4 Test Bench")
 
 ## Design
 A modular design using three [DMUX 1:2](../dmux2/README.md) has been chosen to obtain the desired output.
