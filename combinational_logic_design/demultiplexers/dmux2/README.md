@@ -13,10 +13,10 @@ This example designs a 1:2 demultiplexer using logic gates. This demultiplexer c
 ### Truth Table
 |s0 | d0 | z1 = f(s0, d0) | z0 = f(s0,d0)|
 |:---:|:---:|:---:|:---:|
-|0| 0| 0| 0|
-|0| 1| 0| 1|
-|1| 0| 0| 0|
-|1| 1| 1| 0|
+|0| 0| 0| **0**|
+|0| 1| 0| **1**|
+|1| 0| **0**| 0|
+|1| 1| **1**| 0|
 
 ## Test Bench
 ![dmux2 tb](./dmux2_tb.png "DMUX 1:2 Test Bench")
