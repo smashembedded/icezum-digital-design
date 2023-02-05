@@ -34,4 +34,4 @@ This example designs a 1:8 demultiplexer using logic gates. This demultiplexer c
 ![dmux8 tb](./dmux8_tb.png "DMUX 1:8 Test Bench")
 
 ## Design
-A modular design using two [DMUX 4:1](../dmux4/README.md) and one [DMUX 2:1](../dmux2/README.md) has been chosen to obtain the desired output.
+A modular design using two [DMUX 1:4](../dmux4/README.md) and one [DMUX 1:2](../dmux2/README.md) has been chosen to obtain the desired output.
