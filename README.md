@@ -3,7 +3,7 @@ Design of digital circuits on the FPGA Icezum Alhambra
 
 ## Overview
 
-<img src="dosc/images/icezumAlhambra.jpeg" width="480" alt="IceZUM Alhambra" />
+<img src="docs/images/icezumAlhambra.jpeg" width="480" alt="IceZUM Alhambra" />
 
 ## Required Software Installation
 
@@ -49,9 +49,9 @@ Launch drivers configuration tool
       4. Reconnect the board
       5. Check `apio system --lsftdi`
 ```
-<img src="dosc/images/interface0.png" width="480" alt="Interface2" />
-<img src="dosc/images/interface1.png" width="480" alt="Interface1" />
-<img src="dosc/images/successfully.png" width="480" alt="Drivers Successfully Installed" />
+<img src="docs/images/interface0.png" width="480" alt="Interface2" />
+<img src="docs/images/interface1.png" width="480" alt="Interface1" />
+<img src="docs/images/successfully.png" width="480" alt="Drivers Successfully Installed" />
 
 * Connect your FPGA board and upload the bitstream using [Icestorm Tools](https://clifford.at/icestorm)
 ```bash
