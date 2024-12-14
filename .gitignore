@@ -1,7 +1,6 @@
 *.vcd
 *.out
 *.dblite
-*.ini
 *.asc
 *.bin
 *.json
