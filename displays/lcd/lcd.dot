@@ -1,0 +1,27 @@
+digraph lcd {
+    rankdir=TB;
+    node [shape=box, style=filled, fillcolor=green, fontname="Helvetica", fontsize=12, fontweight="bold", color=black, fontcolor=white];
+
+    S0  [label="S0: 8-bit mode"];
+    S1  [label="S1: Display ON"];
+    S2  [label="S2: Clear Display"];
+    S3  [label="S3: Entry Mode Set"];
+    S4  [label="S4: Move Cursor 1st Row"];
+    S5  [label="S5: Write msg_0"];
+    S6  [label="S6: Move Cursor 2nd Row"];
+    S7  [label="S7: Write msg_1"];
+
+    S0  -> S1  [label="data=0x38"];
+    S1  -> S2  [label="data=0x0C"];
+    S2  -> S3  [label="data=0x01"];
+    S3  -> S4  [label="data=0x06"];
+    S4  -> S5  [label="data=0x80, row=0"];
+    
+    S5  -> S6  [label="i==16, row=0"];
+    S5  -> S5  [label="i<16, data=msg_0[i]"];
+    
+    S6  -> S7  [label="data=0xC0, row=1"];
+    
+    S7  -> S4  [label="i==16, row=1"];
+    S7  -> S7  [label="i<16, data=msg_1[i]"];
+}
