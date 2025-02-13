@@ -1,6 +1,6 @@
 # Liquid Crystal Display
 
-<img src="./lcd.project.jpg" alt="Liquid Crystal Display Project" width="900" height="1200">
+<img src="./lcd.project.jpg" alt="Liquid Crystal Display Project" width="450" height="600">
 
 
 ## Definition
@@ -21,7 +21,7 @@ The display requires specific initialization and data communication via control 
 
 ### Wiring Diagram
 
-<img src="./lcd.fzz.png" alt="LCD Wiring Diagram" width="1200" height="1200">
+<img src="./lcd.fzz.png" alt="LCD Wiring Diagram" width="600" height="496">
 
 
 ## Module Functionality
@@ -34,7 +34,7 @@ After a brief delay, the Enable signal goes low again, ensuring the LCD correctl
 
 ### State Machine for LCD Control
 
-![lcd dot](./lcd.dot.png "LCD State Machine")
+<img src="./lcd.dot.png" alt="LCD State Machine" width="343" height="592">
 
 The `next` state variable controls the sequence of LCD commands:
 
@@ -57,6 +57,3 @@ The `next` state variable controls the sequence of LCD commands:
 
 ## Design
 A **frequency divider** [Frequency Divider](../../clock/freq_divider\README.md) module is used to generate a slower clock signal for the LCD.
-
-
-
