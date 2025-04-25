@@ -2,7 +2,7 @@
 //-- logic_gates2.v
 //-- Module
 //-------------------------------------------------------------------
-//-- Daniel Rodrigo
+//-- Smash Embedded
 //-- GPL license
 //-------------------------------------------------------------------
 //-- AND, OR, XOR, NAND, NOR, XNOR Logic Gated 2:1

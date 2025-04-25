@@ -2,7 +2,7 @@
 //-- dflipflop_rising.v
 //-- Module
 //-------------------------------------------------------------------
-//-- Daniel Rodrigo
+//-- Smash Embedded
 //-- GPL license
 //-------------------------------------------------------------------
 //-- Rising Edge D Flip Flop with Synchronous Reset
