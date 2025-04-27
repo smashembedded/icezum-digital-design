@@ -1,0 +1,8 @@
+*.vcd
+*.out
+*.dblite
+*.asc
+*.bin
+*.json
+*.history
+*.sconsign.tmp

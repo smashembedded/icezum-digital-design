@@ -1,0 +1,41 @@
+[*]
+[*] GTKWave Analyzer v3.3.77 (w)1999-2016 BSI
+[*] Sun Feb 05 16:58:26 2023
+[*]
+[dumpfile] "C:\Users\DanielVicente\Workspace\icezum-digital-design\combinational_logic_design\demultiplexers\dmux16\dmux16_tb.vcd"
+[dumpfile_mtime] "Sun Feb 05 16:57:33 2023"
+[dumpfile_size] 10295
+[savefile] "C:\Users\DanielVicente\Workspace\icezum-digital-design\combinational_logic_design\demultiplexers\dmux16\dmux16_tb.gtkw"
+[timestart] 0
+[size] 1000 600
+[pos] -1 -1
+*-19.572731 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] dmux16_tb.
+[sst_width] 197
+[signals_width] 78
+[sst_expanded] 1
+[sst_vpaned_height] 153
+@28
+dmux16_tb.UUT.s3
+dmux16_tb.UUT.s2
+dmux16_tb.UUT.s1
+dmux16_tb.UUT.s0
+dmux16_tb.UUT.d0
+dmux16_tb.UUT.z15
+dmux16_tb.UUT.z14
+dmux16_tb.UUT.z13
+dmux16_tb.UUT.z12
+dmux16_tb.UUT.z11
+dmux16_tb.UUT.z10
+dmux16_tb.UUT.z9
+dmux16_tb.UUT.z8
+dmux16_tb.UUT.z7
+dmux16_tb.UUT.z6
+dmux16_tb.UUT.z5
+dmux16_tb.UUT.z4
+dmux16_tb.UUT.z3
+dmux16_tb.UUT.z2
+dmux16_tb.UUT.z1
+dmux16_tb.UUT.z0
+[pattern_trace] 1
+[pattern_trace] 0

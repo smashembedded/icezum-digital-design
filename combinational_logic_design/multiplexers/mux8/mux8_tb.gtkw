@@ -1,0 +1,32 @@
+[*]
+[*] GTKWave Analyzer v3.3.77 (w)1999-2016 BSI
+[*] Fri Jan 20 11:32:16 2023
+[*]
+[dumpfile] "C:\Users\DanielVicente\Workspace\icezum-digital-design\combinational_logic_design\multiplexers\mux8\mux8_tb.vcd"
+[dumpfile_mtime] "Fri Jan 20 11:30:00 2023"
+[dumpfile_size] 6717
+[savefile] "C:\Users\DanielVicente\Workspace\icezum-digital-design\combinational_logic_design\multiplexers\mux8\mux8_tb.gtkw"
+[timestart] 0
+[size] 1000 600
+[pos] -1 -1
+*-18.660194 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] mux8_tb.
+[sst_width] 197
+[signals_width] 78
+[sst_expanded] 1
+[sst_vpaned_height] 153
+@28
+mux8_tb.UUT.s2
+mux8_tb.UUT.s1
+mux8_tb.UUT.s0
+mux8_tb.UUT.d7
+mux8_tb.UUT.d6
+mux8_tb.UUT.d5
+mux8_tb.UUT.d4
+mux8_tb.UUT.d3
+mux8_tb.UUT.d2
+mux8_tb.UUT.d1
+mux8_tb.UUT.d0
+mux8_tb.UUT.z0
+[pattern_trace] 1
+[pattern_trace] 0

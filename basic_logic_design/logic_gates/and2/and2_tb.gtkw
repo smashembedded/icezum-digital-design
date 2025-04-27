@@ -1,0 +1,23 @@
+[*]
+[*] GTKWave Analyzer v3.3.77 (w)1999-2016 BSI
+[*] Sun Jan 01 20:16:01 2023
+[*]
+[dumpfile] "C:\Users\DanielVicente\Workspace\icezum-digital-design\basic_logic_design\logic_gates\and2\and2_tb.vcd"
+[dumpfile_mtime] "Sun Jan 01 20:14:11 2023"
+[dumpfile_size] 425
+[savefile] "C:\Users\DanielVicente\Workspace\icezum-digital-design\basic_logic_design\logic_gates\and2\and2_tb.gtkw"
+[timestart] 0
+[size] 1000 600
+[pos] 235 -9
+*-16.572735 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] and2_tb.
+[sst_width] 197
+[signals_width] 78
+[sst_expanded] 1
+[sst_vpaned_height] 153
+@29
+and2_tb.UUT.x0
+and2_tb.UUT.x1
+and2_tb.UUT.z0
+[pattern_trace] 1
+[pattern_trace] 0
