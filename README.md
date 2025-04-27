@@ -29,6 +29,9 @@ The IceZUM Alhambra is an open-source FPGA development board designed with educa
 If you're curious about the hardware design and background, check out the original project repository:
 [FPGAwars / IceZUM-Alhambra](https://github.com/FPGAwars/icezum)
 
+You can purchase the board here:  
+**[Buy the IceZUM Alhambra II](https://ultra-lab.net/producto/alhambra-ii-fpga-board-placa/)**
+
 ---
 
 ## Modules
