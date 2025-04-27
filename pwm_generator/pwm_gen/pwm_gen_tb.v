@@ -1,8 +1,8 @@
 //-------------------------------------------------------------------
-//-- pwm_tb.v
+//-- pwm_gen_tb.v
 //-- Testbench
 //-------------------------------------------------------------------
-//-- Daniel Rodrigo
+//-- Smas Embedded
 //-- GPL license
 //-------------------------------------------------------------------
 
@@ -13,13 +13,15 @@
 module pwm_gen_tb;
 
     reg clk;
+    reg rst;
     reg [7:0] duty_cycle;
     wire pwm;
     wire pwm_n;
  
     // Instantiate the PWM Generator with variable duty cycle in Verilog
     pwm_gen UUT (
-        .clk(clk), 
+        .clk(clk),
+        .rst(rst), 
         .duty_cycle(duty_cycle), 
         .pwm(pwm),
         .pwm_n(pwm_n)
@@ -32,6 +34,8 @@ module pwm_gen_tb;
 
     // Create 12Mhz clock
     initial begin
+        duty_cycle = 8'd0;
+        duty_percentage = 0;
         clk = 0;
         forever #PERIOD clk = ~clk;
     end
@@ -42,6 +46,12 @@ module pwm_gen_tb;
         $dumpfile(`DUMPSTR(`VCD_OUTPUT));
         $dumpvars(0, pwm_gen_tb);
 
+        rst = 1;
+        #PERIOD;
+        #PERIOD;
+        rst = 0;
+        #PERIOD;
+        #PERIOD;
         // Sequence of duty cycles as per the requested pattern
         duty_cycle = 8'd0;
         duty_percentage = (duty_cycle * 100) / 255;
