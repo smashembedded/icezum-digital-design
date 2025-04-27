@@ -1,14 +1,24 @@
 <img src="https://github.com/smashembedded.png" alt="Smash Embedded" width="250" height="auto"/>
 
-# IceZUM Alhambra Digital Design
-[![License](https://img.shields.io/github/license/smashembedded/icezum-digital-design)](./LICENSE)
+# IceZUM Alhambra Digital Design Lab
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 ![GitHub stars](https://img.shields.io/github/stars/smashembedded/icezum-digital-design?style=social)
 
 Design of digital circuits on the IceZUM Alhambra FPGA using Verilog.
-This repository provides practical examples for deploying basic and intermediate digital modules to help hobbyists
-get hands-on experience with FPGA design.
+This repository offers a curated collection of practical modules (basic and intermediate) — perfect for beginners and tinkerers diving into the world of **open-source FPGA development**.
 
 ---
+
+## What’s Inside?
+
+- **Modular Verilog Examples** — From basics to more complex logic blocks.  
+- **Simulation & Synthesis Support** — Using 100% open-source tools.  
+- **Structured Projects** — Clearly organized directories and modular testbenches.  
+- **Educational Focus** — Designed to help you *learn-by-building*.  
+- **FTDI-based Upload Flow** — Easily flash your designs with [Apio](https://github.com/FPGAwars/apio).
+
+---
+
 
 ## About the IceZUM Alhambra
 
@@ -21,13 +31,39 @@ If you're curious about the hardware design and background, check out the origin
 
 ---
 
-## Features
+## Modules
 
-- Digital design examples in Verilog for IceZUM Alhambra.
-- Simulation and synthesis using open-source tools.
-- Structured project folders for different logic types.
-- FTDI-based programming flow using Apio.
-- Educational focus with modular testbenches.
+- [`basic_logic_design`](./../basic_logic_design)
+  - [`logic_gates`](./../basic_logic_design/logic_gates)
+    - [`and2`](./../basic_logic_design/logic_gates/and2)
+    - [`and3`](./../basic_logic_design/logic_gates/and3)
+    - [`and4`](./../basic_logic_design/logic_gates/and4)
+    - [`logic_gates2`](./../basic_logic_design/logic_gates/logic_gates2)
+    - [`or2`](./../basic_logic_design/logic_gates/or2)
+    - [`or3`](./../basic_logic_design/logic_gates/or3)
+    - [`or4`](./../basic_logic_design/logic_gates/or4)
+    - [`xor2`](./../basic_logic_design/logic_gates/xor2)
+    - [`xor3`](./../basic_logic_design/logic_gates/xor3)
+    - [`xor4`](./../basic_logic_design/logic_gates/xor4)
+- [`clock`](./../clock)
+  - [`freq_divider`](./../clock/freq_divider)
+- [`combinational_logic_design`](./../combinational_logic_design)
+  - [`demultiplexers`](./../combinational_logic_design/demultiplexers)
+    - [`dmux16`](./../combinational_logic_design/demultiplexers/dmux16)
+    - [`dmux2`](./../combinational_logic_design/demultiplexers/dmux2)
+    - [`dmux4`](./../combinational_logic_design/demultiplexers/dmux4)
+    - [`dmux8`](./../combinational_logic_design/demultiplexers/dmux8)
+  - [`multiplexers`](./../combinational_logic_design/multiplexers)
+    - [`mux2`](./../combinational_logic_design/multiplexers/mux2)
+    - [`mux4`](./../combinational_logic_design/multiplexers/mux4)
+    - [`mux8`](./../combinational_logic_design/multiplexers/mux8)
+- [`displays`](./../displays)
+  - [`lcd`](./../displays/lcd)
+- [`pwm_generator`](./../pwm_generator)
+  - [`pwm_gen`](./../pwm_generator/pwm_gen)
+- [`sequential_logic_design`](./../sequential_logic_design)
+  - [`pulse_mode_async`](./../sequential_logic_design/pulse_mode_async)
+    - [`dflipflop_rising_sync`](./../sequential_logic_design/pulse_mode_async/dflipflop_rising_sync)
 
 ---
 
@@ -92,13 +128,12 @@ apio upload
 
 Make sure the following components are properly installed through Apio and your system's package manager:
 
-- Apio CLI (pip install apio)
-
-- Icestorm tools: arachne-pnr, yosys, icepack, iceprog
-
-- GTKWave (optional for waveform viewing)
-
-- Icarus Verilog (iverilog, vvp)
+| Tool           | Description                     |
+|----------------|---------------------------------|
+| **Apio CLI**   | FPGA workflow management        |
+| **Icestorm**   | open-source Lattice toolchain   |
+| **Icarus Verilog** | Simulator & compiler        |
+| **GTKWave**    | Waveform viewer (optional)      |
 
 ---
 
@@ -108,29 +143,27 @@ Feel free to open an issue or submit a pull request to improve the examples, fix
 
 ---
 
-## Support
+## Community & Contact
 
-GitHub Sponsors coming soon!  
-⭐ this repo or [follow me](https://github.com/smashembedded) to stay updated.
+Got questions or ideas?  
+Reach out at 📧 [smashembedded@gmail.com](mailto:smashembedded@gmail.com) or open a [GitHub issue](https://github.com/smashembedded/icezum-digital-design/issues).
 
----
-
-## Contact
-Questions or ideas?
-Reach out via [email](mailto:smashembedded@gmail.com) or open an issue on GitHub.
+> GitHub Sponsors coming soon! 
+> ⭐ Star this repo and [follow me](https://github.com/smashembedded) to stay updated!
 
 ---
 
 ## License
-[GPL-3.0](LICENSE) © Smash Embedded
+[GPL-3.0](./LICENSE) © Smash Embedded
 
 ---
 
-## Credits
+## Acknowledgements
 
 - [FPGAwars](https://fpgawars.github.io/)
 - [Icestorm Tools](https://github.com/YosysHQ/icestorm)
 - [Icarus Verilog](https://github.com/steveicarus/iverilog)
 - [Apio](https://github.com/FPGAwars/apio)
 - [GTKWave](https://gtkwave.sourceforge.net/)
+- [DigitalJS](https://digitaljs.tilk.eu/)
 
