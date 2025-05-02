@@ -65,8 +65,12 @@ You can purchase the board here:
   - [`lcd`](./displays/lcd)
 - [`pwm_generator`](./pwm_generator)
   - [`pwm_gen`](./pwm_generator/pwm_gen)
+- [`sensors`](./sensors)
+  - [`buttons`](./sensors/buttons)
+    - [`button_debouncer`](./sensors/buttons/button_debouncer/)
 - [`sequential_logic_design`](./sequential_logic_design)
   - [`pulse_mode_async`](./sequential_logic_design/pulse_mode_async)
+    - [`dflipflop_rising`](./sequential_logic_design/pulse_mode_async/dflipflop_rising)
     - [`dflipflop_rising_sync`](./sequential_logic_design/pulse_mode_async/dflipflop_rising_sync)
 
 ---
