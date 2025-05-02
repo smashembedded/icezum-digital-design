@@ -1,3 +1,4 @@
 set_io clk 21
+set_io rst 10
 set_io pwm 139
 set_io pwm_n 138
