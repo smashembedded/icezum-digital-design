@@ -109,7 +109,7 @@ This module uses a **custom D-type flip-flop module** named `dflipflop_rising`, 
 
 ### Drawbacks
 
-- ❌ **Latency**: Due to the 6-cycle stability check, the response is slightly delayed (e.g., at 400 Hz clock, debounce latency is ~15 ms).
+- ❌ **Latency**: Due to the 6-cycle stability check, the response is slightly delayed (e.g., at 1 kHz clock, debounce latency is ~6 ms).
 - ❌ **Fixed Debounce Time**: Hardcoded number of shift stages; flexibility requires modifying HDL code.
 - ❌ **Resource Use**: More flip-flops than simpler methods (e.g., monostable latches or counters).
 

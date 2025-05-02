@@ -20,16 +20,16 @@ module button_debouncer_top (
 );
 
 // define signals
-wire clk_400Hz;
+wire clk_1kHz;
 
 //freq_divider #(.DIV(28'd30000)) u_freq_divider (
 freq_divider #(.DIV(28'd12000)) u_freq_divider (
     .clk_in(clk),
-    .clk_out(clk_400Hz)
+    .clk_out(clk_1kHz)
 );
 
 button_debouncer u_button_debouncer (
-    .clk(clk_400Hz),
+    .clk(clk_1kHz),
     .rst(rst),
     .b_in(b_in),
     .b_out_level(b_out_level),
