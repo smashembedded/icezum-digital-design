@@ -65,8 +65,12 @@ You can purchase the board here:
   - [`lcd`](./displays/lcd)
 - [`pwm_generator`](./pwm_generator)
   - [`pwm_gen`](./pwm_generator/pwm_gen)
+- [`sensors`](./sensors)
+  - [`buttons`](./sensors/buttons)
+    - [`button_debouncer`](./sensors/buttons/button_debouncer/)
 - [`sequential_logic_design`](./sequential_logic_design)
   - [`pulse_mode_async`](./sequential_logic_design/pulse_mode_async)
+    - [`dflipflop_rising`](./sequential_logic_design/pulse_mode_async/dflipflop_rising)
     - [`dflipflop_rising_sync`](./sequential_logic_design/pulse_mode_async/dflipflop_rising_sync)
 
 ---
@@ -149,12 +153,12 @@ Feel free to open an issue or submit a pull request to improve the examples, fix
 
 ## Community & Contact
 
-Got questions or ideas?  
+Got questions?
+We'd love to hear from you — whether it's a comment, a suggestion, a collaboration idea, or just a hello!
 Reach out at 📧 [smashembedded@gmail.com](mailto:smashembedded@gmail.com) or open a [GitHub issue](https://github.com/smashembedded/icezum-digital-design/issues).
 
-> GitHub Sponsors coming soon! 
-> ⭐ Star this repo and [follow me](https://github.com/smashembedded) to stay updated!
-
+> 💬 Your support matters — not just through funding, but through thoughts, code, feedback, and creativity.
+> ⭐ Star this repo and [follow](https://github.com/smashembedded) to stay connected and contribute in any way you can!
 ---
 
 ## License
@@ -170,4 +174,4 @@ Reach out at 📧 [smashembedded@gmail.com](mailto:smashembedded@gmail.com) or o
 - [Apio](https://github.com/FPGAwars/apio)
 - [GTKWave](https://gtkwave.sourceforge.net/)
 - [DigitalJS](https://digitaljs.tilk.eu/)
-
+- [Fritzing](https://fritzing.org/)
