@@ -31,7 +31,6 @@ module button_debouncer_tb;
         forever #10 clk = ~clk; // clk only for simulation
     end 
 
-        // Simulate a speed increment button press at 400Hz
     task b_in_press;
         begin
             b_in  = 0; #4000000;
