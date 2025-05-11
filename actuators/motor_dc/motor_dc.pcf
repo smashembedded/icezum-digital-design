@@ -1,0 +1,7 @@
+set_io  clk         21
+set_io  rst         144
+set_io  speed_inc   143
+set_io  forward     142
+set_io  ena         119
+set_io  in1         118
+set_io  in2         117
