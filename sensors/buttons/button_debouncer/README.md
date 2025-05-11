@@ -32,14 +32,16 @@ Debouncing resolves this by observing the input over time. A change is only acce
 
 ---
 
-## Module Functionality
+## Module
+
+### Functional Description
 
 The `button_debouncer` module ensures both:
 
 - A **clean level output** (`b_out_level`) that tracks the true stable state of the button.
 - A **one-clock-cycle pulse** (`b_out_pulse`) each time the stable signal transitions to high (press detected).
 
-### Inputs and Outputs
+### Ports
 
 | Signal          | Direction | Description                                      |
 | --------------- | --------- | ------------------------------------------------ |
@@ -48,10 +50,6 @@ The `button_debouncer` module ensures both:
 | `b_in`        | Input     | Raw (possibly bouncing) button input             |
 | `b_out_level` | Output    | Debounced level signal                           |
 | `b_out_pulse` | Output    | 1-cycle pulse on rising edge of debounced output |
-
-### Wiring Diagram
-
-<img src="./button_debouncer.fzz.png" alt="Button Debouncer Wiring Diagram" width="600" height="496">
 
 ---
 
@@ -95,6 +93,10 @@ A trailing flip-flop (`dff_prev`) stores the previous debounced state. This allo
 This module uses a **custom D-type flip-flop module** named `dflipflop_rising`, which includes both `Q` and `nQ` outputs and supports synchronous reset. This is suitable for educational, pedagogical, or structured IP development.
 
 > ⚠️ **Note**: Standard library flip-flops (e.g., `always @(posedge clk)` blocks in Verilog) can be used as alternatives for production or tool-optimized synthesis environments. The current implementation favors modularity and reuse.
+
+### Wiring Diagram
+
+<img src="./button_debouncer.fzz.png" alt="Button Debouncer Wiring Diagram" width="600" height="496">
 
 ---
 

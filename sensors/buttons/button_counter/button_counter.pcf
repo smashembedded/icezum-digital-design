@@ -1,0 +1,11 @@
+set_io clk 21
+set_io rst 10
+set_io b_in 144
+set_io count[0] 95
+set_io count[1] 96
+set_io count[2] 97
+set_io count[3] 98
+set_io count[4] 99
+set_io count[5] 101
+set_io count[6] 102
+set_io count[7] 104
